@@ -8,4 +8,12 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
     }
+
+    fun ranfun(){
+        val a = if (5 > 0){
+            5
+        }else{
+            6
+        }
+    }
 }
